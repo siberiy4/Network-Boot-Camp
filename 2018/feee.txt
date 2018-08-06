@@ -1,0 +1,9 @@
+enable
+
+
+erase startup-config
+
+delete vlan.dat
+
+
+reload
