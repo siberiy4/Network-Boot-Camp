@@ -1,0 +1,26 @@
+Enhanced IGRP
+    Distance Vector
+        ×(hybrid)
+    Link State
+
+変化があった時だけとなりに伝える。(Link state)
+ルーティングの計算(Distance Vector)
+
+一番いいコストの経路が消えたとき、記憶してある準最適(2番目に最適なやつ(複数覚えている可能性もある))を紹介する
+
+それが全部だめなら、ネットワークをすべて止めて再計算
+
+
+successor
+    最適ルート
+
+Feasible successor
+    準最適経路
+
+Feasible Distance
+    最適ルートのメトリック値
+
+Advatized Distance
+    隣のルータから木庭地までのメトリック
+
+準最適
